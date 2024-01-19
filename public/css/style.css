@@ -1,0 +1,43 @@
+.nav-pills li a:hover {
+    background-color: rgb(66, 66, 243);
+}
+
+
+
+.row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+  
+   
+}
+
+#sidebar {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+
+}
+
+#plantilla {
+    padding: 50px;
+    margin-left: 190px;
+    max-height: 100vh;
+    width: 86vw;
+    overflow-y: auto;
+    
+}
+
+#tabla{
+    width: 80vw;
+}
+
+.tools{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+
+
